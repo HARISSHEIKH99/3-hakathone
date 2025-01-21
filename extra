@@ -1,0 +1,2 @@
+npm create sanity@latest -- --project hiha7y11 --dataset production --template clean --typescript --output-path studio-capstonproject
+cd studio-capstonproject
