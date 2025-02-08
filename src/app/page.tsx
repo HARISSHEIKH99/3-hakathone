@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+
 import { Delivery } from "./components/Delivery";
 import { Product2 } from "./components/product2";
 import Signup from "./components/signup";
@@ -31,5 +32,7 @@ export default function Home() {
     </div>
   );
 }
-
+function importData() {
+  throw new Error("Function not implemented.");
+}
 
