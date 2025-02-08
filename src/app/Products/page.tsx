@@ -69,7 +69,7 @@ const ProductCards: React.FC = () => {
 
     return (
         <div className="p-4">
-            <h2 className="text-center text-slate-800 mt-4 mb-4"> Products From API'S Data</h2>
+            <h2 className="text-center text-slate-800 mt-4 mb-4"> Products From API`S Data</h2>
             <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {products.map((product) => (
                     <div
@@ -85,7 +85,7 @@ const ProductCards: React.FC = () => {
 
                         <div className="mt-4">
                             <h2 className="text-lg font-semibold">{product.title}</h2>
-                            <p className="text-slate-800 mt-2 text-sm">{truncateDescription(product.description)}'</p>
+                            <p className="text-slate-800 mt-2 text-sm">{truncateDescription(product.description)}</p>
                             <div className="flex justify-between items-center mt-4">
                                 <div>
                                     <p className="text-slate-800 font-bold"> ${product.price}</p>

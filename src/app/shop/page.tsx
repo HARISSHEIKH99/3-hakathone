@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Product } from "../../../types/products";
 import { client } from "@/sanity/lib/client";
-import { allProducts, four } from "@/sanity/lib/quries";
+import { allProducts } from "@/sanity/lib/quries";
 import { urlFor } from "@/sanity/lib/image";
 import Link from "next/link";
 

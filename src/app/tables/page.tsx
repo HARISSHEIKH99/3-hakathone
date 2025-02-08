@@ -75,7 +75,7 @@ const page = () => {
           </h1>
           <p className="text-sm text-[#2A254B] font-extralight text-center mt-2">
             For our materials and quality <br />
-            <span className="block">you won't find better prices anywhere</span>
+            <span className="block">you won`t find better prices anywhere</span>
           </p>
         </div>
       </div>

@@ -20,8 +20,8 @@ export default function Cart() {
     <div className="flex flex-col md:flex-row mt-10 bg-white shadow-md rounded-lg max-w-4xl mx-auto overflow-hidden">
       {/* Product Image */}
       <div className="md:w-1/2">
-        <img
-          src="/dandy chair.png"
+        <Image 
+        src="/dandy chair.png"
           alt="The Dandy Chair"
           className="w-full h-full object-cover"
         />

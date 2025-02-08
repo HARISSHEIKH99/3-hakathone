@@ -41,7 +41,7 @@ export const Delivery = () => {
                   <p className='text-sm font-extralight w-auto text-[#2A254B] mt-2'>
                     For our materials and quality you
                     <br />
-                    <span className='text-sm text-left font-extralight text-[#2A254B]'>won't find better price anywhere</span>
+                    <span className='text-sm text-left font-extralight text-[#2A254B]'>wont find better price anywhere</span>
                   </p>
                 </div>
               </div>
