@@ -7,13 +7,7 @@ import ProductCards from "./Products/page";
 import SHOP from "./shop/page";
 import { Product } from "./components/Product";
 
-type product = {
-  _id : string;
-  name : string;
-  description : string;
-  price : number;
-  image : string 
-} 
+
 
 export default function Home() {
   return (
@@ -31,8 +25,5 @@ export default function Home() {
     
     </div>
   );
-}
-function importData() {
-  throw new Error("Function not implemented.");
 }
 
